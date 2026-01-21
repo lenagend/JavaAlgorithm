@@ -17,7 +17,7 @@ class P42576Test {
         String expected = "leo";
 
         // When (실행)
-        String result = sol.solution(participant, completion);
+        String result = sol.solution3(participant, completion);
 
         // Then (검증)
         assertEquals(expected, result, "완주하지 못한 선수는 leo여야 합니다.");
@@ -32,7 +32,7 @@ class P42576Test {
         String expected = "mislav";
 
         // When
-        String result = sol.solution(participant, completion);
+        String result = sol.solution3(participant, completion);
 
         // Then
         assertEquals(expected, result);
