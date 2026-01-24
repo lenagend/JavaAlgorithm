@@ -17,7 +17,7 @@ class Q9_PalindromeNumberTest {
         // When
         boolean expected = true;
 
-        boolean result = sol.isPalindrome(num);
+        boolean result = sol.isPalindrome4(num);
 
         // Then
         assertEquals(expected, result);
@@ -32,7 +32,7 @@ class Q9_PalindromeNumberTest {
         // When
         boolean expected = false;
 
-        boolean result = sol.isPalindrome(num);
+        boolean result = sol.isPalindrome4(num);
 
         // Then
         assertEquals(expected, result);

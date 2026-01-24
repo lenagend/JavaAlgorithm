@@ -37,4 +37,48 @@ public class Q9_PalindromeNumber {
         // 5. 원본과 뒤집은 숫자가 같은지 비교
         return originalX == reversedNumber;
     }
+
+
+
+
+    //안보고 복기
+public boolean isPalindrome3(int x) {
+    //음수는 불가능
+    if(x < 0) {
+        return false;
+    }
+
+    //정수를 문자열로 변환
+    String original = String.valueOf(x);
+
+    //뒤집음
+    String reversed = new StringBuilder(original).reverse().toString();
+
+    return original.equals(reversed);
+}
+
+    //안보고 복기2
+    public boolean isPalindrome4(int x) {
+        //음수는 불가능
+        if(x < 0 || (x % 10 == 0 && x != 0)) {
+            return false;
+        }
+
+        int reversedNumber = 0;
+        int original = x;
+
+        while(x > 0) {
+            /*일의자리를 구한다
+                    reversedNumber에 10을 곱하고(자리수 늘려주기) 더한다 121이면 0 * 10 + 1 = 1
+                x에는 12를 넣는다*/
+            int num = x % 10;
+            reversedNumber *= 10;
+            reversedNumber += num;
+
+            x /= 10;
+        }
+
+
+        return reversedNumber == original;
+    }
 }

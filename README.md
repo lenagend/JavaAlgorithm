@@ -10,8 +10,10 @@
 | 02 | Hash | Two Sum | [Link](./src/main/java/com/mingchico/leetcode/easy/Q1_TwoSum.java)           | [Go][L1]     |
 | 03 | Hash | Roman to Integer | [Link](./src/main/java/com/mingchico/leetcode/easy/Q13_RomanToInteger.java)  | [Go][L2]     |
 | 04 | Implementation | Palindrome Number | [Link](./src/main/java/com/mingchico/leetcode/easy/Q9_PalindromeNumber.java) | [Go][L3]     |
+| 05 | Implementation | Longest Common Prefix | [Link](./src/main/java/com/mingchico/leetcode/easy/Q14_LongestCommonPrefix.java) | [Go][L4]     |
 
 [P42576]: https://school.programmers.co.kr/learn/courses/30/lessons/42576
 [L1]: https://leetcode.com/problems/two-sum/
 [L2]: https://leetcode.com/problems/roman-to-integer
 [L3]: https://leetcode.com/problems/palindrome-number
+[L4]: https://leetcode.com/problems/longest-common-prefix
