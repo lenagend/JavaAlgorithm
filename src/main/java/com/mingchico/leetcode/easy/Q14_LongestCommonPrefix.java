@@ -20,4 +20,57 @@ public class Q14_LongestCommonPrefix {
 
         return prefix;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //안보고 복기
+    public String longestCommonPrefix2(String[] strs) {
+        /*첫번째 문장을 프리픽스로 저장
+                두번째 문장부터 indexof로 일치여부를 구하고
+                맞지않으면 맞을때까지 프리픽스 맨뒤에거를 날림
+
+                프리픽스를 리턴*/
+        String prefix = strs[0];
+
+        for(int i = 1; i < strs.length; i ++){
+            while(strs[i].indexOf(prefix) != 0){
+                prefix = prefix.substring(0, prefix.length() - 1);
+
+                if(prefix.isEmpty()) return "";
+            }
+        }
+
+        return prefix;
+    }
 }

@@ -17,7 +17,7 @@ class Q14_LongestCommonPrefixTest {
         // When
         String expected = "fl";
 
-        String result = sol.longestCommonPrefix(strs);
+        String result = sol.longestCommonPrefix2(strs);
 
         // Then
         assertEquals(expected, result);
@@ -32,7 +32,7 @@ class Q14_LongestCommonPrefixTest {
         // When
         String expected = "";
 
-        String result = sol.longestCommonPrefix(strs);
+        String result = sol.longestCommonPrefix2(strs);
 
         // Then
         assertEquals(expected, result);
