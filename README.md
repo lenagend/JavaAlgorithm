@@ -12,7 +12,8 @@
 | 04 | Implementation | Palindrome Number     | [Link](./src/main/java/com/mingchico/leetcode/easy/Q9_PalindromeNumber.java)     | [Go][L3]     |
 | 05 | Implementation | Longest Common Prefix | [Link](./src/main/java/com/mingchico/leetcode/easy/Q14_LongestCommonPrefix.java) | [Go][L4]     |
 | 06 | Brute force    | 최소직사각형                | [Link](./src/main/java/com/mingchico/programmers/bruteforce/P86491.java)         | [Go][P86491] |
-| 07 | Sort           | P42748                | [Link](./src/main/java/com/mingchico/programmers/sort/P42748.java)               | [Go][P42748] |
+| 07 | Sort           | k번째 수                 | [Link](./src/main/java/com/mingchico/programmers/sort/P42748.java)               | [Go][P42748] |
+| 08 | DFS            | 타겟넘버                  | [Link](./src/main/java/com/mingchico/programmers/dfs/P43165.java)                | [Go][P43165] |
 
 [P42576]: https://school.programmers.co.kr/learn/courses/30/lessons/42576
 [L1]: https://leetcode.com/problems/two-sum/
@@ -21,3 +22,4 @@
 [L4]: https://leetcode.com/problems/longest-common-prefix
 [P86491]: https://school.programmers.co.kr/learn/courses/30/lessons/86491
 [P42748]: https://school.programmers.co.kr/learn/courses/30/lessons/42748
+[P43165]: https://school.programmers.co.kr/learn/courses/30/lessons/43165
