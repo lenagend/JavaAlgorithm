@@ -14,6 +14,9 @@
 | 06 | Brute force    | 최소직사각형                | [Link](./src/main/java/com/mingchico/programmers/bruteforce/P86491.java)         | [Go][P86491] |
 | 07 | Sort           | k번째 수                 | [Link](./src/main/java/com/mingchico/programmers/sort/P42748.java)               | [Go][P42748] |
 | 08 | DFS            | 타겟넘버                  | [Link](./src/main/java/com/mingchico/programmers/dfs/P43165.java)                | [Go][P43165] |
+| 09 | Hash           | Hash1                 | [Link](./src/main/java/com/mingchico/ai/hash/Hash1.java)                         |  |
+| 10 | Hash           | Hash2                 | [Link](./src/main/java/com/mingchico/ai/hash/Hash2.java)                         |  |
+| 11 | Stack          | Stack1                | [Link](./src/main/java/com/mingchico/ai/stack/Stack1.java)                       |  |
 
 [P42576]: https://school.programmers.co.kr/learn/courses/30/lessons/42576
 [L1]: https://leetcode.com/problems/two-sum/

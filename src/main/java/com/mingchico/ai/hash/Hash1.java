@@ -20,7 +20,7 @@ package com.mingchico.ai.hash;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Q1 {
+public class Hash1 {
     public String solution(String[] snacks){
         /*snacks를 돌며 map에 카운팅한다
         map을 돌며 가장 큰값의 키를찾는다        */

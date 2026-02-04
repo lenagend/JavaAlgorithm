@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class Q14_LongestCommonPrefixTest {
+class Hash14_LongestCommonPrefixTest {
     Q14_LongestCommonPrefix sol = new Q14_LongestCommonPrefix();
 
     @Test

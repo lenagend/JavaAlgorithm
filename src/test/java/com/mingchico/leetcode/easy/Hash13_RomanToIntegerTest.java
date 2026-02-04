@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class Q13_RomanToIntegerTest {
+class Hash13_RomanToIntegerTest {
 
     Q13_RomanToInteger sol = new Q13_RomanToInteger();
 

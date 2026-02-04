@@ -4,7 +4,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-class Q1_TwoSumTest {
+class Hash1_TwoSumTest {
 
     private final Q1_TwoSum sol = new Q1_TwoSum();
 
